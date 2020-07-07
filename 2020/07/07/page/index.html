@@ -20,10 +20,18 @@
 <link rel="stylesheet" href="/css/style.css">
 
   
+    
+<link rel="stylesheet" href="/css/plugins/gitment.css">
+
+  
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
   
+  
+    
+<script src="/js/gitment.js"></script>
+
   
   
   
@@ -238,7 +246,9 @@ x^2+y^2 = z^3 (Z|X<25) S<W_2©˙√ç≈Ω∑´Ωåœœ∑∑_{123}^{x^2}2x≤�
     
     <!-- 二维码 END -->
     
-      <!-- No Comment -->
+      <!-- Gitment START -->
+      <div id="comments"></div>
+      <!-- Gitment END -->
     
   </article>
   <!-- Article END -->
@@ -308,6 +318,34 @@ x^2+y^2 = z^3 (Z|X<25) S<W_2©˙√ç≈Ω∑´Ωåœœ∑∑_{123}^{x^2}2x≤�
 
 
 
+
+  <script>
+    var gitmentConfig = "";
+    if (gitmentConfig !== 'undefined') {
+      var gitment = new Gitment({
+        id: "啦啦啦啦这是一个测试",
+        owner: "",
+        repo: "",
+        oauth: {
+          client_id: "730d082e56ba7d458680",
+          client_secret: "e4033649aeaa106d3af2ed7d74702951325aa17a"
+        },
+        theme: {
+          render(state, instance) {
+            const container = document.createElement('div')
+            container.lang = "en-US"
+            container.className = 'gitment-container gitment-root-container'
+            container.appendChild(instance.renderHeader(state, instance))
+            container.appendChild(instance.renderEditor(state, instance))
+            container.appendChild(instance.renderComments(state, instance))
+            container.appendChild(instance.renderFooter(state, instance))
+            return container;
+          }
+        }
+      })
+      gitment.render(document.getElementById('comments'))
+    }
+  </script>
 
 
 
