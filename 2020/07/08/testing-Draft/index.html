@@ -79,14 +79,14 @@
 
 
 
-<meta name="description" content="sda dasd asd  SDAFADS">
+<meta name="description" content="文章简要">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ccccs">
-<meta property="og:url" content="https://swordkeeper.site/2020/07/07/ccccs/index.html">
+<meta property="og:title" content="testing Draft">
+<meta property="og:url" content="https://swordkeeper.site/2020/07/08/testing-Draft/index.html">
 <meta property="og:site_name" content="SwordKeeper Space">
-<meta property="og:description" content="sda dasd asd  SDAFADS">
-<meta property="article:published_time" content="2020-07-07T09:57:50.000Z">
-<meta property="article:modified_time" content="2020-07-07T09:58:17.202Z">
+<meta property="og:description" content="文章简要">
+<meta property="article:published_time" content="2020-07-08T09:59:16.000Z">
+<meta property="article:modified_time" content="2020-07-08T10:07:40.690Z">
 <meta property="article:author" content="SwordKeeper">
 <meta property="article:tag" content="其他">
 <meta name="twitter:card" content="summary">
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="https://swordkeeper.site/2020/07/07/ccccs/"/>
+  <link rel="canonical" href="https://swordkeeper.site/2020/07/08/testing-Draft/"/>
 
 
 
 
 
-  <title>ccccs | SwordKeeper Space</title>
+  <title>testing Draft | SwordKeeper Space</title>
   
 
 
@@ -296,7 +296,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://swordkeeper.site/2020/07/07/ccccs/">
+    <link itemprop="mainEntityOfPage" href="https://swordkeeper.site/2020/07/08/testing-Draft/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="SwordKeeper">
@@ -313,7 +313,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">ccccs</h1>
+          <h1 class="post-title" itemprop="name headline">testing Draft</h1>
         
 
         <div class="post-meta">
@@ -325,8 +325,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-07-07T17:57:50+08:00">
-                2020-07-07
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-07-08T17:59:16+08:00">
+                2020-07-08
               </time>
             
 
@@ -336,6 +336,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/" itemprop="url" rel="index">
+                    <span itemprop="name">未分类</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -344,8 +366,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2020/07/07/ccccs/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count gitment-comments-count" data-xid="/2020/07/07/ccccs/" itemprop="commentsCount"></span>
+                <a href="/2020/07/08/testing-Draft/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/2020/07/08/testing-Draft/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -367,7 +389,7 @@
                   <span class="post-meta-item-text">文章字数统计&#58;</span>
                 
                 <span title="文章字数统计">
-                  4
+                  2.3k
                 </span>
               
 
@@ -383,7 +405,7 @@
                   <span class="post-meta-item-text">阅读估计时长 &asymp;</span>
                 
                 <span title="阅读估计时长">
-                  1
+                  8
                 </span>
               
             </div>
@@ -404,8 +426,221 @@
       
 
       
-        <h1 id="sda-d"><a href="#sda-d" class="headerlink" title="sda d"></a>sda d</h1><p>asd asd </p>
-<h2 id="SDAFADS"><a href="#SDAFADS" class="headerlink" title="SDAFADS"></a>SDAFADS</h2>
+        <p>文章简要</p>
+<a id="more"></a>
+<p>Http协议格式，请求头，乱码等问题</p>
+<!-- more -->
+<h3 id="HTTP协议"><a href="#HTTP协议" class="headerlink" title="HTTP协议"></a>HTTP协议</h3><h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><h3 id="Request"><a href="#Request" class="headerlink" title="Request"></a>Request</h3><ol>
+<li><p>请求行</p>
+<blockquote>
+<p>GET /Login.html HTTP/1.1       # 方法  请求资源URL  协议/版本</p>
+</blockquote>
+<p> Http有7中请求方式:</p>
+<ul>
+<li><p><code>Get</code>，请求参数在请求行中。也就是上面HTTP/1.1之前。也就是URL中。且请求长度有限制的。明文，不太安全</p>
+</li>
+<li><p><code>Post</code>，请求内容出现在请求体中。请求长度没有限制。在请求体里，相对安全</p>
+</li>
+</ul>
+</li>
+</ol>
+<ol>
+<li><p>请求头</p>
+<blockquote>
+<p>Host: localhost                        # 键值对形式的数据，Host 主机地址</p>
+<p>User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36                   # User-Agent 用户浏览器信息。等等</p>
+<p>Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,<em>/</em>;q=0.8,application/signed-exchange;v=b3;q=0.9</p>
+<p>Accept-Encoding: gzip, deflate, br</p>
+<p>Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6</p>
+<p>Cache-Control: max-age=0</p>
+<p>Connection: keep-alive</p>
+</blockquote>
+<p> 常用请求头：</p>
+<p> <code>Host</code>：主机地址，或域名</p>
+<p> <code>User-Agent</code>：浏览器信息</p>
+<p> <code>Accept</code>：可以解析文件的格式</p>
+<p> <code>Accept-Language</code>: 可以解析的语言</p>
+<p> <code>Accept-Encoding</code>：支持的压缩格式 </p>
+<p> <code>Referer</code>：请求从哪里来。特别重要。1. 可以用来 <code>防盗链</code>，防止其他网址盗用本网站资源  2. 可以用来<code>统计连接</code></p>
+<p> <code>Connection</code>：表示连接是否可以被服用。一般http1.1都是keep-alive</p>
+<p> <code>Upgrade</code>：是否可以被升级</p>
+</li>
+<li><p>请求空行</p>
+<blockquote>
+<h1 id="就是一个空行，用来分割请求头和请求体。Get方式没有请求体，POST方式有请求体"><a href="#就是一个空行，用来分割请求头和请求体。Get方式没有请求体，POST方式有请求体" class="headerlink" title="就是一个空行，用来分割请求头和请求体。Get方式没有请求体，POST方式有请求体"></a>就是一个空行，用来分割请求头和请求体。Get方式没有请求体，POST方式有请求体</h1></blockquote>
+</li>
+<li><p>请求体</p>
+<blockquote>
+<p>usernae=zhangsan</p>
+<p>age=15</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="Request-继承关系"><a href="#Request-继承关系" class="headerlink" title="Request 继承关系"></a>Request 继承关系</h2><p>Tomcat 对Request 定义了一个接口</p>
+<p>继承关系</p>
+<blockquote>
+<p>ServletRequest.        // 原始request接口</p>
+<p>HttpServletRequest    // 子接口</p>
+<p>org.apache.catalina.connector.RequestFacade   // 实现类</p>
+</blockquote>
+<h2 id="Request-Tomcat实现"><a href="#Request-Tomcat实现" class="headerlink" title="Request Tomcat实现"></a>Request Tomcat实现</h2><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><h4 id="获取请求"><a href="#获取请求" class="headerlink" title="获取请求"></a>获取请求</h4><ol>
+<li><p><code>String getMethod()</code>：获取请求方式，GET 或 POST</p>
+</li>
+<li><p><code>String getContextPath()</code>：获取虚拟路径，也就是工程的虚拟路径。例如 /project1</p>
+</li>
+<li><p><code>String getServletPath()</code>：获取项目的本服务Servlet路径。例如/module1</p>
+</li>
+<li><p><code>String getQueryString()</code>：获取url中的请求参数，也就是?之后的数据</p>
+</li>
+<li><p><code>String getURI()</code>：获取访问路径也就是 URI = contextPath +. servletPath. 例如   /project1/module1</p>
+</li>
+<li><p><code>String getURL()</code>：获取完整的URL连接。等于  协议+Socket+URI .例如：”<a href="http://localhost/project1/module1" target="_blank" rel="noopener">http://localhost/project1/module1</a>“</p>
+</li>
+<li><p><code>String getProtocol()</code>：获取协议和版本 例如  HTTP1.1</p>
+</li>
+<li><p><code>String getRemoteAddr()</code>：获取远程请求的IP地址</p>
+</li>
+</ol>
+<h4 id="获取请求头"><a href="#获取请求头" class="headerlink" title="获取请求头"></a>获取请求头</h4><ol>
+<li><p><code>String getHeader(String )</code>：获取某个请求头</p>
+</li>
+<li><p><code>String getHeaders()</code>：获取请求头完整数据</p>
+</li>
+<li><p><code>Enumeration&lt;String&gt; getHeaderNames()</code>：获取请求头名称。即罗列所有请求头的Key</p>
+</li>
+</ol>
+<h4 id="获取请求体"><a href="#获取请求体" class="headerlink" title="获取请求体"></a>获取请求体</h4><p>Servlet将请求体封装成<code>流</code>，所以要获取请求体，就得通过获取流的方式来获取。并且，只有<code>POST</code>方式才有请求体</p>
+<ol>
+<li><code>BufferedReader getReader()</code>，获取字符流</li>
+<li><code>ServletInputStream getInputStream()</code>，获取字节流</li>
+</ol>
+<p>通过访问这些流对象，来获取请求体中所携带的数据</p>
+<p>第二种方式，如果通过POST提交参数。可以通过：</p>
+<ol>
+<li><p><code>getParameter()</code>等方法获取</p>
+</li>
+<li><p><code>getParameterNames</code>获取所有参数名</p>
+</li>
+</ol>
+<p><strong>两种方式不能共同使用。它类似于读取文件，用了一种方式，游标就会向前推进。造成第二次读取时（换种方式读取）读不到数据</strong></p>
+<h4 id="乱码问题"><a href="#乱码问题" class="headerlink" title="乱码问题"></a>乱码问题</h4><p>最常见的问题，就是读取中文时会出现乱码。由于Post传递的请求体是<code>流式</code>数据。流式数据就涉及到编码和解码问题。</p>
+<p> 解决办法，在request中设置编码。这样当提取request中的数据前，就可以对其编码进行设置。这样获取的数据，就会按照编码格式输出</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">request.setCharacterEncoding(<span class="string">"utf-8"</span>); </span><br><span class="line">response.setCharacterEncoding(<span class="string">"utf-8"</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 如果不清楚浏览器默认用什么格式解码，可以添加响应头字段。 Content-Type，该字段推荐浏览器用某种格式解码</span></span><br><span class="line">response.setHeader(<span class="string">"content-type"</span>,<span class="string">"text/html;charset=utf-8"</span>);</span><br><span class="line"><span class="comment">// 或者简写</span></span><br><span class="line">response.setContentType(<span class="string">"text/html;charset=utf-8"</span>);</span><br></pre></td></tr></table></figure>
+<h4 id="请求转发"><a href="#请求转发" class="headerlink" title="请求转发"></a>请求转发</h4><p>由于有的请求服务很复杂。涉及到多个业务逻辑，所以不可能在一个servlet中单独完成，这就需要对该请求进行转发</p>
+<p>转发有两个步骤：</p>
+<ol>
+<li><p>获取<code>dispatcher</code>对象</p>
+ <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 获取一个派发对象，并传递派发 路径</span></span><br><span class="line">RequestDispatcher dispatcher = req.getRequestDispatcher(<span class="string">"newPath"</span>);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>通过<code>forward</code>方法进行转发</p>
+ <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 转发请求，需要传递request，response对象</span></span><br><span class="line">dispatcher.forword(req, resp);</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p><strong>转发的特点</strong>：</p>
+<ol>
+<li>转发时，虽然访问了多个servlet。但是地址栏路径没有发生变化，还是最开始的那个URL</li>
+<li>转发是发生在服务器内部，跟浏览器之间没有多余的交互。仍是请求一次，返回一次（如果只返回一个资源）</li>
+<li>转发是发生在服务器内部，因而转发地址不能请求项目外部地址。例如百度等</li>
+</ol>
+<h4 id="共享数据-—-域对象"><a href="#共享数据-—-域对象" class="headerlink" title="共享数据 — 域对象"></a>共享数据 — 域对象</h4><p>域对象是指由作用范围的对象，可以在一个范围内共享数据。由于request可以在不同servlet中forward，在一个servlet中产生的计算数据，可以被携带到request中，并传递给下一个servlet。</p>
+<p><code>request域</code>：一次请求的范围。一般用于请求和转发的多个资源中共享数据。具体使用方法：</p>
+<ol>
+<li><code>setAttribute(String Object)</code>，将Object数据存到String指定的key中</li>
+<li><code>Object getAttribute(String)</code>，获取某个数据</li>
+<li><code>removeAttribute(String)</code>，移除某个数据 </li>
+</ol>
+<p><strong>综上，GetParameter 是获取有关request参数列表，包括请求头和请求体中的数据。Get/SetAttribute是request在redirect时候添加到request对象中的中间生产的变量</strong></p>
+<h4 id="servletContext"><a href="#servletContext" class="headerlink" title="servletContext"></a>servletContext</h4><p>ServlentContext表示数据servlet的运行环境变量</p>
+<h2 id="Response"><a href="#Response" class="headerlink" title="Response"></a>Response</h2><ol>
+<li><p><code>响应行</code></p>
+<blockquote>
+<p>HTTP/2.0 200 OK</p>
+</blockquote>
+<p> 协议/版本   响应状态码   状态码描述</p>
+<p> 响应码分类：</p>
+<ol>
+<li><code>1xx</code>，表示客户端给服务器发消息，但是客户端没有发完。服务器等待客户端继续发送完整数据，但是等待一段时间后依然没有收到完整数据。所以服务器发送1xx的响应码，询问客户端</li>
+<li><code>2xx</code>，成功。一般为<code>200</code>，表示成功。</li>
+<li><code>3xx</code>，重定向。重定向是指服务器通知浏览器，让浏览器重新访问另外一个资源来实现某种功能。这区别与服务器内部的<code>dispatch forward</code>操作。<ul>
+<li><code>302</code>，表示重定向某个连接。</li>
+<li><code>304</code>，表示某个数据之前已经缓存到浏览器端，而服务器对该数据没有更改。因而服务器为了减少网络流量，通知客户端（等于重定向到浏览器端）304，表示该资源已经存在于浏览器端缓存。描述为 Not Modified</li>
+</ul>
+</li>
+<li><code>4xx</code>，客户端错误<ul>
+<li><code>404</code>没有对应的资源</li>
+<li><code>405</code>请求方式没有的对应方法。例如<code>POST</code>请求，而服务器端没有接受<code>POST</code>请求的方法，只有<code>GET</code>方法</li>
+</ul>
+</li>
+<li><code>5xx</code> ，服务器端错误。<ul>
+<li><code>500</code>，服务器内部异常</li>
+<li></li>
+</ul>
+</li>
+</ol>
+</li>
+<li><p><code>响应头</code></p>
+<p> ​    键值对数据，常见的响应头</p>
+<ul>
+<li><code>Content-Type</code>，告诉浏览器，响应体的数据格式和编码格式。text/html;charset=utf-8</li>
+<li><code>Content-disposition</code>，高速浏览器以什么格式打开响应体体的数据<ul>
+<li>In-line 默认，当前页面打开</li>
+<li>Attachment; filename=xxx，以文件附件方式打开（文件下载）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><code>响应空行</code></p>
+</li>
+<li><p><code>响应体</code></p>
+<p> ​    HTML 返回页面</p>
+</li>
+</ol>
+<h2 id="Response-Tomcat-实现"><a href="#Response-Tomcat-实现" class="headerlink" title="Response Tomcat 实现"></a>Response Tomcat 实现</h2><h3 id="方法-1"><a href="#方法-1" class="headerlink" title="方法"></a>方法</h3><h4 id="响应行"><a href="#响应行" class="headerlink" title="响应行"></a>响应行</h4><ul>
+<li><code>setStatus(int)</code>，设置响应码</li>
+</ul>
+<h4 id="响应头"><a href="#响应头" class="headerlink" title="响应头"></a>响应头</h4><ul>
+<li><code>setHeader(String key, String value)</code>，设置响应头的键值对</li>
+</ul>
+<h4 id="响应体"><a href="#响应体" class="headerlink" title="响应体"></a>响应体</h4><ol>
+<li><p>获取输出流</p>
+<ul>
+<li><p>字节流</p>
+  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">PrinterWriter <span class="title">getWriter</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>字符流</p>
+  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">ServletOutputStream <span class="title">getOutputStream</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ol>
+<ol>
+<li>通过输出流写入到响应体中，并最终被response携带到浏览器 </li>
+</ol>
+<h3 id="重定向"><a href="#重定向" class="headerlink" title="重定向"></a>重定向</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">response.setStatus(<span class="string">"302"</span>);  <span class="comment">// 设置响应码302，表示重定向</span></span><br><span class="line">response.setHeader(<span class="string">"location"</span>, <span class="string">"/newDemo"</span>); <span class="comment">// 设置重定向的目标uri，关键字为location</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//----------- 另一种简单的重定向方式---------</span></span><br><span class="line">response.sendRedirect(<span class="string">"/newDemo"</span>);   <span class="comment">// 只用填写重定向的uri</span></span><br></pre></td></tr></table></figure>
+<p><strong>重定向与转发的区别：</strong></p>
+<p>重定向：</p>
+<ul>
+<li>转发涉及到多次请求</li>
+<li>转发地址栏改变</li>
+<li>转发能访问服务器外部url</li>
+<li><strong>request域</strong>，在重定向过程中失效。即request不能通过设置setAttribute来共享数据，来传递中间值。毕竟重定向是两次request</li>
+</ul>
+<p>转发（与重定向完全相反）：</p>
+<ul>
+<li>转发只涉及一次请求</li>
+<li>转发不改变地址栏</li>
+<li>转发只能在服务器内部转换request（项目）</li>
+</ul>
+<h4 id="绝对路径"><a href="#绝对路径" class="headerlink" title="绝对路径"></a>绝对路径</h4><p>在服务器书写地址时，要分清如何写绝对路径</p>
+<ul>
+<li><p>绝对路径需要包含<code>虚拟目录</code>的情况：<br>  <strong>该地址是给浏览器用户使用的，包括<a>标签，重定向地址等</strong>。这些是给浏览及让它重新发起新 request请求的，而这些请求（如上面的区别所说）可以是外部服务器url的。所以应该包含外层的<code>虚拟目录</code>地址，来区别项目。</p>
+<p>  虚拟路径最好动态获取，防止项目更改了虚拟路径，造成大面积更改需求<strong>request.getContextPath()</strong></p>
+</li>
+<li><p>绝对路径不包含<code>虚拟目录</code>的情况：</p>
+<p>  <strong>地址是给服务器内部使用的</strong>。由于是在服务器内部使用，一般是指<code>转发</code>，不涉及到外部url，因而也不需要外层的虚拟目录</p>
+</li>
+</ul>
+
       
     </div>
     
@@ -445,8 +680,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2020/07/07/llalalalal/" rel="next" title="llalalalal">
-                <i class="fa fa-chevron-left"></i> llalalalal
+              <a href="/2020/07/07/%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6/" rel="next" title="测试框架">
+                <i class="fa fa-chevron-left"></i> 测试框架
               </a>
             
           </div>
@@ -454,10 +689,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2020/07/07/ssscc/" rel="prev" title="ssscc">
-                ssscc <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -616,7 +847,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#sda-d"><span class="nav-number">1.</span> <span class="nav-text">sda d</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#SDAFADS"><span class="nav-number">1.1.</span> <span class="nav-text">SDAFADS</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#HTTP协议"><span class="nav-number">1.</span> <span class="nav-text">HTTP协议</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#格式"><span class="nav-number"></span> <span class="nav-text">格式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Request"><span class="nav-number">1.</span> <span class="nav-text">Request</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#就是一个空行，用来分割请求头和请求体。Get方式没有请求体，POST方式有请求体"><span class="nav-number"></span> <span class="nav-text">就是一个空行，用来分割请求头和请求体。Get方式没有请求体，POST方式有请求体</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Request-继承关系"><span class="nav-number"></span> <span class="nav-text">Request 继承关系</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Request-Tomcat实现"><span class="nav-number"></span> <span class="nav-text">Request Tomcat实现</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#方法"><span class="nav-number">1.</span> <span class="nav-text">方法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#获取请求"><span class="nav-number">1.1.</span> <span class="nav-text">获取请求</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#获取请求头"><span class="nav-number">1.2.</span> <span class="nav-text">获取请求头</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#获取请求体"><span class="nav-number">1.3.</span> <span class="nav-text">获取请求体</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#乱码问题"><span class="nav-number">1.4.</span> <span class="nav-text">乱码问题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#请求转发"><span class="nav-number">1.5.</span> <span class="nav-text">请求转发</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#共享数据-—-域对象"><span class="nav-number">1.6.</span> <span class="nav-text">共享数据 — 域对象</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#servletContext"><span class="nav-number">1.7.</span> <span class="nav-text">servletContext</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Response"><span class="nav-number"></span> <span class="nav-text">Response</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Response-Tomcat-实现"><span class="nav-number"></span> <span class="nav-text">Response Tomcat 实现</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#方法-1"><span class="nav-number">1.</span> <span class="nav-text">方法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#响应行"><span class="nav-number">1.1.</span> <span class="nav-text">响应行</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#响应头"><span class="nav-number">1.2.</span> <span class="nav-text">响应头</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#响应体"><span class="nav-number">1.3.</span> <span class="nav-text">响应体</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#重定向"><span class="nav-number">2.</span> <span class="nav-text">重定向</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#绝对路径"><span class="nav-number">2.1.</span> <span class="nav-text">绝对路径</span></a></li></ol></li></ol></div>
             
 
           </div>

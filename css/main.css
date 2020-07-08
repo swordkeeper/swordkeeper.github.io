@@ -1819,7 +1819,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #304f73;
+  background: #03db7f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3230,6 +3230,8 @@ pre .javascript .function {
   border-bottom: none;
 }
 body {
+/* background-color: rgba(220, 233, 194, 0.797); */
+/* background-color:#fff; */
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 }
 .posts-expand .post-title-link {
@@ -3259,8 +3261,10 @@ body {
   text-align: center;
   word-break: break-word;
   font-weight: 600;
-/* color: #273849;  */
-  color: #f00;
+  color: #273849;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+/* color: #666; */
+/* font-size: 14.4px; */
 }
 .menu .menu-item a {
   text-align: center;
@@ -3297,4 +3301,65 @@ body {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   color: #6c757d;
   border-color: #6c757d;
+}
+.site-meta {
+  background-color: #ccc;
+}
+.site-title {
+  color: #273849;
+  font-weight: bolder;
+}
+.site-subtitle {
+  color: #273849;
+}
+.sidebar-inner {
+  background-color: rgba(248,248,248,0.88);
+}
+code {
+  color: #fc6423;
+  background-color: rgba(215,240,240,0.81);
+}
+strong {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #222;
+}
+.post-body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #444;
+}
+.MathJax_Display {
+  color: #444;
+}
+blockquote {
+  background-color: #f5f5f4;
+  border-left: 4px solid #a5a4a4;
+  border-right: 1px dashed #e1dfdf;
+  border-top: 2px dashed #e1dfdf;
+  border-bottom: 2px dashed #e1dfdf;
+}
+.post-toc ol a {
+  text-decoration: none;
+  color: #555;
+}
+.post-toc .nav .active > a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 0px;
+}
+.post-toc .nav .active-current > a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+.nav-link {
+  text-decoration: none;
+  border-bottom: 0px;
+}
+.sidebar-nav .sidebar-nav-active {
+  color: #007bff;
 }
